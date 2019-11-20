@@ -19,19 +19,19 @@
 
 }
 @media (min-width: 992px) {
-  .jumbotron {
+  .hero-image {
     height: 400px;
   }
 }
 @media (min-width: 1200px) {
-  .jumbotron {
+  .hero-image {
     height: 460px;
   }
 }
 @media (min-width: 1560px) {
   .container {
     max-width: 1520px; } 
-  .jumbotron {
+  .hero-image {
     height: 500px;
   }
   
