@@ -26,8 +26,23 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr auto">
-          <li class="nav-item px-2">
-            <a class="nav-link h4 text-dark" href="#">Services</a>
+          <li class="nav-item px-2 dropdown">
+            <a class="nav-link h4 text-dark dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+              Services
+            </a>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Surface Preparation</a>
+                <a class="dropdown-item" href="#">Shutdown Services</a>
+                <a class="dropdown-item" href="#">Corrosion Services</a>
+                <a class="dropdown-item" href="#">Lead Paint Abatement</a>
+                <a class="dropdown-item" href="#">Restoration Services</a>
+                <a class="dropdown-item" href="#">Aerial Work</a>
+                <a class="dropdown-item" href="#">Paint Applications</a>
+                <a class="dropdown-item" href="#">Coating Services</a>
+                <a class="dropdown-item" href="#">Protective Painting</a>
+                <a class="dropdown-item" href="#">Other Services</a>
+              </div>
+            </a>
           </li>
           <li class="nav-item px-2">
             <a class="nav-link h4 text-dark" href="#">About Us</a>
@@ -39,6 +54,18 @@
               <a class="nav-link h4 text-dark" href="#">Gallery</a>
             </li>
           </ul>
+          <form class="form-inline ml-auto my-2 my-lg-0 d-md-block d-lg-none d-xl-block">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
       </div>
     </nav>
   </div>
