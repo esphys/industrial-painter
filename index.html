@@ -48,15 +48,13 @@
           <div class="text-backdrop col-lg-5 col-md-auto p-3">
             <p class=" h1">Our Quality Shows</p>
             <p class="lead">If you need an industrial or commercial painter, or restoration company, we are the one for you.</p>
-            <a class="h4 text-light" href="#">
+            <a class="h4 text-light" href="#" data-toggle="modal" data-target="#quoteModal">
               <u>Request a quote <span class="fas  fa-long-arrow-alt-right"></span></u>
             </a>
           </div>
         </div>
       </div>
     </div>
-
-
     <div class="container mt-5 px-0 w-100">
       <div class="row p-0">
         <div class="col-xl-3 col-lg-6 col-md-6">
@@ -84,7 +82,7 @@
             <img class="card-img-top" src="img/silos.jpg">
             <h5 class="card-title p-3">Nationwide Service</h5>
             <p class="card-text lead px-3">Nationwide painting and restoration at an affordable price! One stop shop to service all your locations accross the country.</p>
-            <a class="h6 p-3" href="#">
+            <a class="h6 p-3" href="#" data-toggle="modal" data-target="#quoteModal">
               <u>Request a Quote <span class="fas fa-long-arrow-alt-right"></span></u>
             </a>
           </div>
@@ -174,6 +172,41 @@
         <p>Copyright <span id="year"></span> - IndustrialPainter.com</p>
       </div>
     </footer>
+    <!-- Modal -->
+  <div class="modal fade" id="quoteModal" tabindex="-1" role="dialog" aria-labelledby="quoteModal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Request a Quote</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <!-- quote form -->
+            <form>
+                <div class="form-group">
+                  <label for="quoteEmail">Email address</label>
+                  <input type="email" class="form-control" id="quoteEmail" aria-describedby="emailHelp" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                  <label for="quoteName">Name</label>
+                  <input type="text" class="form-control" id="quoteName" placeholder="Enter Name">
+                </div>
+                <div class="form-group">
+                  <label for="quoteCompany">Company Name</label>
+                  <input type="text" class="form-control" id="quoteCompany" placeholder="Enter Company Name">
+                </div>
+                <div class="form-group">
+                    <label for="quoteInfo">Job Description</label>
+                    <textarea class="form-control" id="quoteDescription" placeholder="Enter a brief description" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary" data-dismiss="modal" aria-label="Close">Submit</button>
+              </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
