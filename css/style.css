@@ -1,0 +1,41 @@
+.logo {
+  height: 60px;
+}
+
+.hero-image {
+  background-image:url(../img/jumbotron.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.text-backdrop {
+  background-color: rgba(0,0,0,0.6);
+}
+
+@media (min-width: 576px) {
+
+}
+@media (min-width: 768px) {
+
+}
+@media (min-width: 992px) {
+  .jumbotron {
+    height: 400px;
+  }
+}
+@media (min-width: 1200px) {
+  .jumbotron {
+    height: 460px;
+  }
+}
+@media (min-width: 1560px) {
+  .container {
+    max-width: 1520px; } 
+  .jumbotron {
+    height: 500px;
+  }
+  
+  }
+
+  .w-30 {
+    width: 30% !important; }
